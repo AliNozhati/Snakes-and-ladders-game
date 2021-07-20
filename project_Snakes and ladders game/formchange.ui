@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormChange</class>
+ <widget class="QWidget" name="FormChange">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>242</width>
+    <height>106</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Change</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normalon>:/image/snake.jpeg</normalon>
+   </iconset>
+  </property>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>51</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string> Select</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="select_change">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>10</y>
+     <width>161</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Change..</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Rename</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Change password</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Change Birthday</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Change Phone Number</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="change">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>101</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string> Change</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>50</y>
+     <width>101</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

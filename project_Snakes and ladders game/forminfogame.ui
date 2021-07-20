@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormInfoGame</class>
+ <widget class="QWidget" name="FormInfoGame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>656</width>
+    <height>603</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Infogame</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normalon>:/image/snake.jpeg</normalon>
+   </iconset>
+  </property>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>24</y>
+     <width>591</width>
+     <height>551</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:-2px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:36px; background-color:#f8f9fa;&quot;&gt;&lt;a name=&quot;tw-target-text&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'inherit'; font-size:10pt; font-weight:600; color:#202124;&quot;&gt;S&lt;/span&gt;&lt;span style=&quot; font-family:'inherit'; font-size:10pt; font-weight:600; color:#202124;&quot;&gt;nakes and ladders game&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:-2px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:36px; background-color:#f8f9fa;&quot;&gt;&lt;a name=&quot;tw-target-text&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'inherit'; font-size:10pt; color:#202124;&quot;&gt;M&lt;/span&gt;&lt;span style=&quot; font-family:'inherit'; font-size:10pt; color:#202124;&quot;&gt;ade by Ali Nozhati  7/12/2021&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:-2px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:36px; background-color:#f8f9fa;&quot;&gt;&lt;a name=&quot;tw-target-text&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'inherit'; font-size:10pt; color:#202124;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-family:'inherit'; font-size:10pt; color:#202124;&quot;&gt;) You must have an account to play.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:-2px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:36px; background-color:#f8f9fa;&quot;&gt;&lt;a name=&quot;tw-target-text&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'inherit'; font-size:10pt; color:#202124;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot; font-family:'inherit'; font-size:10pt; color:#202124;&quot;&gt;) You must bring 6 to start the game.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:-2px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:36px; background-color:#f8f9fa;&quot;&gt;&lt;a name=&quot;tw-target-text&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'inherit'; font-size:10pt; color:#202124;&quot;&gt;3&lt;/span&gt;&lt;span style=&quot; font-family:'inherit'; font-size:10pt; color:#202124;&quot;&gt;) If you go on a snake, you will come down.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:-2px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:36px; background-color:#f8f9fa;&quot;&gt;&lt;a name=&quot;tw-target-text&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'inherit'; font-size:10pt; color:#202124;&quot;&gt;4&lt;/span&gt;&lt;span style=&quot; font-family:'inherit'; font-size:10pt; color:#202124;&quot;&gt;) If you go up the stairs, you go up.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:-2px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:36px; background-color:#f8f9fa;&quot;&gt;&lt;a name=&quot;tw-target-text&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'inherit'; font-size:10pt; color:#202124;&quot;&gt;5&lt;/span&gt;&lt;span style=&quot; font-family:'inherit'; font-size:10pt; color:#202124;&quot;&gt;) If a player goes to a house where another player is, the second player goes to zero.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:-2px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:36px; background-color:#f8f9fa;&quot;&gt;&lt;a name=&quot;tw-target-text&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'inherit'; font-size:10pt; color:#202124;&quot;&gt;6&lt;/span&gt;&lt;span style=&quot; font-family:'inherit'; font-size:10pt; color:#202124;&quot;&gt;) If you are close to house 100, you must bring the required dice (no more acceptable).&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:-2px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:36px; background-color:#f8f9fa;&quot;&gt;&lt;a name=&quot;tw-target-text&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'inherit'; font-size:10pt; color:#202124;&quot;&gt;7&lt;/span&gt;&lt;span style=&quot; font-family:'inherit'; font-size:10pt; color:#202124;&quot;&gt;) The winner gets 3 positive points and the loser gets 1 negative point.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
