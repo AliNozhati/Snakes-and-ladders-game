@@ -221,9 +221,9 @@ void Game::on_dice2_clicked()
         int r;
         static bool flag = false;
         QMessageBox msgbox;
-        const QPixmap dice_one("C:/proje_maropele/image/1.jpg"), dice_two("C:/proje_maropele/image/2.jpg"),
-              dice_three("C:/proje_maropele/image/3.jpg"), dice_four("C:/proje_maropele/image/4.jpg"),
-              dice_five("C:/proje_maropele/image/5.jpg"), dice_six("C:/proje_maropele/image/6.jpg");
+        const QPixmap dice_one("../image/1.jpg"), dice_two("../image/2.jpg"),
+              dice_three("../image/3.jpg"), dice_four("../image/4.jpg"),
+              dice_five("../image/5.jpg"), dice_six("../image/6.jpg");
         string st;
 
             r = rand()%6 +1;
