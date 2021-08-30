@@ -9,7 +9,7 @@
 
 void Readfile(vector <Player>& Myplayer)
 {
-    fstream file("C:/Users/ali/Desktop/project_Snakes and ladders game/file.txt", ios::in);
+    fstream file("./file.txt", ios::in);
 
     Player input;
     QMessageBox msgbox;
@@ -58,7 +58,7 @@ unsigned int CheckRegister (vector <Player>& Myplayer, string user)
 
 void UpdateFile(Player p, vector <Player>& myplayer)
 {
-    fstream file("C:/Users/ali/Desktop/project_Snakes and ladders game/file.txt", ios::app);
+    fstream file("./file.txt", ios::app);
     QMessageBox msgbox;
 
     if(!file)
@@ -84,10 +84,10 @@ void UpdateFile(Player p, vector <Player>& myplayer)
 
 void ChangeFile(vector <Player>& myplayer)
 {
-    fstream f("C:/Users/ali/Desktop/project_Snakes and ladders game/file.txt", ios::out);
+    fstream f("./file.txt", ios::out);
     f.close();
 
-    fstream file("C:/Users/ali/Desktop/project_Snakes and ladders game/file.txt", ios::app);
+    fstream file("./file.txt", ios::app);
     QMessageBox msgbox;
 
     if(!file)
